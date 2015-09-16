@@ -191,3 +191,4 @@
 [2015-09-12T12:46:17] Update deps (#191)
 [2015-09-12T19:39:04] Add error handling (#192)
 [2015-09-16T14:53:49] Add logging (#193)
+[2015-09-16T19:41:54] Refactor utils (#194)
