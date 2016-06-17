@@ -561,3 +561,4 @@
 [2016-06-15T17:18:45] Refactor utils (#561)
 [2016-06-16T12:25:28] Add tests (#562)
 [2016-06-16T13:05:43] Update README (#563)
+[2016-06-16T20:47:27] Add error handling (#564)
