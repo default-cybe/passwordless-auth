@@ -620,3 +620,4 @@
 [2016-07-21T15:01:25] Fix lint (#620)
 [2016-07-21T23:05:33] Refactor utils (#621)
 [2016-07-22T08:22:19] Refactor utils (#622)
+[2016-07-22T14:04:22] Add error handling (#623)
