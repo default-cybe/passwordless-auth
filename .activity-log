@@ -790,3 +790,4 @@
 [2016-11-07T15:04:43] Update deps (#790)
 [2016-11-09T08:32:30] Add comments (#791)
 [2016-11-09T16:56:43] Fix formatting (#792)
+[2016-11-12T12:02:15] Add error handling (#793)
