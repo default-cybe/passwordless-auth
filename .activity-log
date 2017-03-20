@@ -959,3 +959,4 @@
 [2017-03-18T14:30:18] Fix edge case (#959)
 [2017-03-18T14:39:19] Add error handling (#960)
 [2017-03-19T10:08:52] Add error handling (#961)
+[2017-03-19T22:52:33] Fix lint (#962)
