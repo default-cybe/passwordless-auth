@@ -1725,3 +1725,4 @@
 [2019-08-28T10:28:01] Refactor code (#1725)
 [2019-08-28T11:31:52] Add error handling (#1726)
 [2019-08-31T11:57:49] Add validation (#1727)
+[2019-08-31T16:55:45] Add logging (#1728)
