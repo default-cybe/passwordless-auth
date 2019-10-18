@@ -1764,3 +1764,4 @@
 [2019-10-14T17:56:04] Add error handling (#1764)
 [2019-10-16T23:25:03] Fix formatting (#1765)
 [2019-10-17T08:45:35] Add logging (#1766)
+[2019-10-18T12:21:12] Add validation (#1767)
