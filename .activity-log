@@ -2741,3 +2741,4 @@
 [2022-06-01T19:31:29] Fix formatting (#2741)
 [2022-06-01T20:36:31] Fix formatting (#2742)
 [2022-06-04T11:03:53] Add validation (#2743)
+[2022-06-06T11:03:45] Add error handling (#2744)
