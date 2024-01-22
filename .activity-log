@@ -3532,3 +3532,4 @@
 [2024-01-20T11:51:32] Add error handling (#3532)
 [2024-01-20T23:48:43] Update docs (#3533)
 [2024-01-21T17:33:35] Fix formatting (#3534)
+[2024-01-22T18:34:07] Refactor utils (#3535)
