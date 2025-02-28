@@ -21,43 +21,46 @@ Passwordless-auth allows users to log in without entering a password. It utilize
 
 # Tech Used
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 # Installation
 
-To set up and run this project, follow these steps:
+To set up and run this project, follow these simple steps:
 
-**Note: Ensure you have Python and Django installed on your system.**
-
-1.  **Create a Virtual Environment:**
-    ```bash
-    python -m venv myvenv
-    ```
-
-2.  **Activate the Virtual Environment:**
-    * **Windows:**
+1.  **Download the Repository:**
+    * Download the project repository as a ZIP file and extract it, or clone it using Git:
         ```bash
-        myvenv\Scripts\activate
+        git clone YOUR_REPOSITORY_URL
         ```
-    * **macOS/Linux:**
+        (Replace `YOUR_REPOSITORY_URL` with the actual URL of your repository.)
+
+2.  **Navigate to the Project Directory:**
+    * Open your terminal or command prompt and navigate to the project's root directory.
         ```bash
-        source myvenv/bin/activate
+        cd passwordless-auth
         ```
+        (Replace `passwordless-auth` with the actual name of your project directory if it's different.)
 
 3.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    (Ensure `requirements.txt` is in your project directory.)
+    * Install the required Python packages using pip.
+        ```bash
+        pip install -r requirements.txt
+        ```
+        (Ensure `requirements.txt` is in your project directory.)
 
-4.  **Run the Development Server:**
-    ```bash
-    python manage.py runserver
-    ```
+4.  **Configure Firebase:**
+    * This project uses Firebase as a backend. You will need to configure your Firebase credentials.
+    * Locate the `settings.py` file in your Django project.
+    * Add your Firebase configuration details (API keys, project ID, etc.) to the appropriate settings variables within `settings.py`.
+    * If you have a `firebase-credentials.json` file, make sure it is placed in the correct location and that the `settings.py` file is configured to use it.
+    * **Important:** Refer to the Firebase documentation for instructions on obtaining your Firebase credentials and configuring them in your Django project.
 
-5.  **Configuration:**
-    * Configure any necessary settings, such as database connections or API keys, in your Django project's `settings.py` file.
-    * If you have any specific configuration regarding the trust score system, adjust the code accordingly.
+5.  **Run the Development Server:**
+    * Start the Django development server.
+        ```bash
+        python manage.py runserver
+        ```
 
 6.  **Access the Application:**
     * Open your web browser and navigate to `http://127.0.0.1:8000/` to access the application.
+
