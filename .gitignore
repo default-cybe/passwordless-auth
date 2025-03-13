@@ -1,0 +1,7 @@
+# Real Firebase config (copy from firebase-config.example.js)
+assets/js/firebase-config.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
